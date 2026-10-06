@@ -1,0 +1,79 @@
+[
+  {
+    "id": "rpt_init_1",
+    "userId": "usr_user_1",
+    "scanType": "whatsapp",
+    "title": "Urgent Bank Account Verification Scam",
+    "riskScore": 95,
+    "confidenceScore": 98,
+    "riskLevel": "DANGEROUS",
+    "threatCategory": "OTP & Account Takeover Phishing",
+    "summary": "High risk social engineering attack requesting immediate OTP verification and link click.",
+    "explanation": [
+      "Contains urgent coercive language threatening account suspension.",
+      "Uses fake domain URL posing as legitimate banking authority.",
+      "Requests sharing sensitive One-Time Passcode (OTP)."
+    ],
+    "safetyTips": [
+      "Never click on links sent via SMS or WhatsApp claiming to be your bank.",
+      "Banks will NEVER ask you to disclose OTP codes or passwords.",
+      "Block and report the sender number immediately."
+    ],
+    "createdAt": "2026-10-06T01:43:32.900Z"
+  },
+  {
+    "id": "rpt_init_2",
+    "userId": "usr_user_2",
+    "scanType": "url",
+    "title": "Amazon Phishing Domain Login",
+    "riskScore": 92,
+    "confidenceScore": 96,
+    "riskLevel": "DANGEROUS",
+    "threatCategory": "Typosquatting & Credential Harvesting",
+    "summary": "Malicious spoofed Amazon domain configured to harvest credentials.",
+    "explanation": [
+      "Domain `amazon-account-security-update.xyz` uses nested subdomains to deceive users.",
+      "Lacks valid official SSL security certificate from Amazon Services."
+    ],
+    "safetyTips": [
+      "Always type official URLs directly into your browser (e.g. amazon.com)."
+    ],
+    "createdAt": "2026-10-05T17:43:32.900Z"
+  },
+  {
+    "id": "rpt_init_3",
+    "userId": "usr_user_1",
+    "scanType": "transaction",
+    "title": "₹25,000 via UPI / PhonePe QR Code",
+    "riskScore": 88,
+    "confidenceScore": 92,
+    "riskLevel": "DANGEROUS",
+    "threatCategory": "UPI QR Code \"Scan to Receive Money\" Fraud",
+    "summary": "OLX buyer requested scanning QR code to receive money.",
+    "explanation": [
+      "CRITICAL: Scanning a QR code ALWAYS deducts money from your account, never deposits!"
+    ],
+    "safetyTips": [
+      "Never enter UPI PIN or scan QR code to receive money."
+    ],
+    "createdAt": "2026-10-05T11:43:32.900Z"
+  },
+  {
+    "id": "rpt_init_4",
+    "userId": "usr_admin_1",
+    "scanType": "call",
+    "title": "+91 98765 43210 (CBI Cyber Crime)",
+    "riskScore": 95,
+    "confidenceScore": 99,
+    "riskLevel": "DANGEROUS",
+    "threatCategory": "Digital Arrest & Government Imposter Scam",
+    "summary": "Fake CBI officer demanding video call digital arrest fine.",
+    "explanation": [
+      "Indian law enforcement (CBI/Police) never conducts digital arrests over video calls."
+    ],
+    "safetyTips": [
+      "Report immediately to National Cyber Crime Helpline 1930."
+    ],
+    "createdAt": "2026-10-06T03:43:32.900Z"
+  }
+]

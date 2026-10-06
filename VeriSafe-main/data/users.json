@@ -1,0 +1,23 @@
+[
+  {
+    "id": "usr_admin_1",
+    "name": "System Administrator",
+    "email": "admin@sentinel.ai",
+    "role": "admin",
+    "createdAt": "2026-09-06T05:43:32.898Z"
+  },
+  {
+    "id": "usr_user_1",
+    "name": "Standard User",
+    "email": "user@sentinel.ai",
+    "role": "user",
+    "createdAt": "2026-09-21T05:43:32.899Z"
+  },
+  {
+    "id": "usr_user_2",
+    "name": "Rahul Sharma",
+    "email": "rahul@gmail.com",
+    "role": "user",
+    "createdAt": "2026-09-29T05:43:32.899Z"
+  }
+]
